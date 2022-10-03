@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Passions+Conflict&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Passions+Conflict&family=Source+Code+Pro:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Passions+Conflict&family=Source+Code+Pro:ital,wght@0,500;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Passions+Conflict&family=Source+Code+Pro:ital,wght@0,500;1,300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+    position: absolute;
+    padding-top: 30px;
+    background-color: rgb(190, 190, 190);
+    font-size: 3;
+    /* width: 300px; */
+    /* font-family: 'Passions Conflict', cursive; */
+    /* font-family: 'Passions Conflict', cursive; */
+    font-family: 'Source Code Pro', monospace;
+    height: 100vh;
+    transition: transform 0.2s ease-in;
+}
+
+.sidebar nav {
+    font-size: 3;
+    padding: 23px;
+}
+
+.sidebar nav li {
+    list-style-type: none;
+    font-size: 20px;
+    padding: 10px 0px;
+}
+
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.main {
+    /* background-color: antiquewhite; */
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 100vw;
+}
+
+.infocontainer {
+    margin: 147px auto;
+    /* background-color: #74d6e3; */
+    height: 45vh;
+    width: 75vw;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devinfo {
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /* font-family: 'Passions Conflict', cursive; */
+    font-family: 'Source Code Pro', monospace;
+}
+
+
+.info {
+    font-size: 3em;
+    font-weight: lighter;
+}
+
+.name {
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.about {
+    font-size: 2.5em;
+}
+
+.buttons {
+    margin-top: 34px;
+}
+
+.btn {
+    padding: 9px 14px;
+    border-radius: 14px;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    font-weight: bold;
+    margin: 0 3px;
+    font-family: 'Passions Conflict', cursive;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.btn:hover{
+    color: black;
+    background-color: white;
+}
+
+.devpic img {
+    height: 45vh;
+}
+
+.container {
+    display: flex;
+}
+
+.contactform{
+    padding: 0 40px;
+    /* padding-top: 144px; */
+    font-family: 'Passions Conflict', cursive;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.contactform h1{
+    /* text-align: center; */
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Passions Conflict', cursive;
+    font-family: 'Source Code Pro', monospace;
+}
+
+
+.contactform form div{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0;
+    border-radius: 50px;
+}
+
+.form-check{
+    flex-direction: row;
+}
+
+.form-check-input{
+    width: 20px;
+}
+
+.blogitem{
+    padding-top: 7px;
+    padding-left: 0 10px;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.sidebarGo{
+    transform: translate(-443px, 0px);
+    position: absolute;
+}
+
+.blogcontainer h1{
+    display: flex;
+    padding-left: 20px;
+}
+
+.intro, .blogcontainer, .contactform{
+    margin: 188px;
+
+}
+
+@media  (max-width : 1200px){
+    /* .sidebar{
+        transform: translate(-443px, 0px);
+        position: absolute;
+    } */
+
+
+    .decinfo{
+        font-size: 10px;
+    }
+    .devpic{
+        display: none;
+    }
+
+    .intro, .blogcontainer, .contactform{
+        margin: 8px;
+
+    }
+}
+
+
+.cross{
+   margin-left: 117px; 
+}
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 5px;
+    left: 5px;
+    background-color: auto;
+}
